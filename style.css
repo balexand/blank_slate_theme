@@ -526,3 +526,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 14, stylesheets/style.scss */
+#container {
+  width: 960px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 17, stylesheets/style.scss */
+#container aside {
+  float: right;
+  width: 300px;
+}
+/* line 22, stylesheets/style.scss */
+#container #content {
+  float: left;
+  width: 660px;
+}

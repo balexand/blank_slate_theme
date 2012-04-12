@@ -11,7 +11,19 @@
       <?php wp_nav_menu(array( 'container'=> 'nav')); ?>
     </header>
 
-    <?php $insert_page_content_here(); ?>
+    <div id="container">
+      <section id="content">
+        <?php $insert_page_content_here(); ?>
+      </section>
+
+      <aside>
+        <?php get_sidebar() ?>
+      </aside>
+    </div>
+
+    <footer>
+      <p>I'm the footer. Please edit or delete me.</p>
+    </footer>
 
     <?php wp_footer(); ?>
   </body>
