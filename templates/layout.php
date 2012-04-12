@@ -6,7 +6,10 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <?php wp_nav_menu(); ?>
+    <header>
+      <h1><?php bloginfo("name"); ?></h1>
+      <?php wp_nav_menu(array( 'container'=> 'nav')); ?>
+    </header>
 
     <?php $insert_page_content_here(); ?>
   </body>
