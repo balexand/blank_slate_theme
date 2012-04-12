@@ -3,6 +3,7 @@
   <head>
     <title><?php bloginfo('name'); wp_title( '|', true); ?></title>
     <link rel="stylesheet" href="<?php echo get_bloginfo("template_directory") . "/style.css"; ?>" type="text/css" media="screen">
+
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
@@ -17,7 +18,7 @@
       </section>
 
       <aside>
-        <?php get_sidebar() ?>
+        <?php dynamic_sidebar('primary-widget-area'); ?>
       </aside>
     </div>
 
