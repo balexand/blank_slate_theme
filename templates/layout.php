@@ -4,6 +4,10 @@
     <title><?php bloginfo('name'); wp_title( '|', true); ?></title>
     <link rel="stylesheet" href="<?php echo get_bloginfo("template_directory") . "/style.css"; ?>" type="text/css" media="screen">
 
+    <!-- FIXME optionally point these to Feedburner -->
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom/" />
+
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
