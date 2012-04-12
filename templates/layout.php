@@ -12,5 +12,7 @@
     </header>
 
     <?php $insert_page_content_here(); ?>
+
+    <?php wp_footer(); ?>
   </body>
 </html>
