@@ -8,6 +8,11 @@
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/rss/" />
     <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom/" />
 
+    <!-- old IE needs HTML5 shiv even if we don't need the rest of Modernizr's functionality -->
+    <!--[if lt IE 9]>
+      <script src="<?php echo get_bloginfo("template_directory"); ?>/javascripts/modernizr.js" type="text/javascript"></script>
+    <![endif]-->
+
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
