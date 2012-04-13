@@ -529,16 +529,17 @@ table {
 
 /* line 14, stylesheets/style.scss */
 #container {
+  margin: 0 auto;
   width: 960px;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 17, stylesheets/style.scss */
+/* line 18, stylesheets/style.scss */
 #container aside {
   float: right;
   width: 300px;
 }
-/* line 22, stylesheets/style.scss */
+/* line 23, stylesheets/style.scss */
 #container #content {
   float: left;
   width: 660px;
