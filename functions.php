@@ -13,12 +13,11 @@ function theme_init_function() {
     'after_title' => '</h3>',
   ) );
 }
-
-
 add_action('init', 'theme_init_function');
 
 function render_template_within_layout($name) {
   $insert_page_content_here = create_function('', 'require "templates/' . $name . '.php";');
   require 'templates/layout.php';
 }
+
 ?>
