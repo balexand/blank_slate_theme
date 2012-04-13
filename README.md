@@ -12,4 +12,4 @@ Non-nerds can install [Compass App](http://compass.handlino.com/) and avoid the 
 
 ## HTML templates
 
-If you want to edit the HTML for the site, then edit one of the files in the `templates` folder. `layout.php` is a special file that contains a layout that will be wrapped around all of the other templates. [Wordpress' `The Loop`](http://codex.wordpress.org/The_Loop) should not be included in `single.php` or `page.php`
+If you want to edit the HTML for the site, then edit one of the files in the `templates` folder. `layout.php` is a special file that contains a layout that will be wrapped around all of the other templates. [Wordpress' `The Loop`](http://codex.wordpress.org/The_Loop) should not be included in `single.php` or `page.php`.
