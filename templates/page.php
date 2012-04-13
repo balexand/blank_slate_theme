@@ -5,3 +5,5 @@
 
   <?php the_content(); ?>
 </article>
+
+<?php comments_template('', true); ?>
